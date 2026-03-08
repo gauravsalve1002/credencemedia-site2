@@ -1,0 +1,17 @@
+# Cloudflare Pages _redirects
+# Prevent .html redirect errors by explicitly mapping clean URLs to .html files
+# This stops Cloudflare from issuing 301 redirects that confuse Googlebot
+
+/about         /about.html         200
+/work          /work.html          200
+/pricing       /pricing.html       200
+/case-studies  /case-studies.html  200
+/reviews       /reviews.html       200
+/contact       /contact.html       200
+/publications  /publications.html  200
+/careers       /careers.html       200
+/why-us        /why-us.html        200
+/legal         /legal.html         200
+/success       /success.html       200
+/privacy       /privacy.html       200
+/terms         /terms.html         200
